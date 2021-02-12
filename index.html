@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Gameboy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gameboy">
+            <div class="pivot">
+                <div class="zpos-face gameboy-face">
+                    <div class="game-buttons">
+                        <div class="active-a-button">A</div>
+                        <div class="active-b-button">B</div>
+                        <div class="active-cross-button">
+                            <div class="top-section cross-section">
+                                <div class="top-button cross-button-section"></div>
+                            </div>
+                            <div class="mid-section cross-section">
+                                <div class="left-button cross-button-section"></div>
+                                <div class="center-button cross-button-section"></div>
+                                <div class="right-button cross-button-section"></div>
+                            </div>
+                            <div class="bottom-section cross-section">
+                                <div class="bottom-button cross-button-section"></div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="screen">
+                        <div class="score"></div>
+                        <div class="game-container"></div>
+                    </div>
+                    <div class="decoration"></div>
+                </div>
+                <div class="zneg-face gameboy-face"></div>
+                <div class="xpos-face gameboy-face"></div>
+                <div class="xneg-face gameboy-face"></div>
+                <div class="ypos-face gameboy-face"></div>
+                <div class="yneg-face gameboy-face"></div>
+            </div>
+        </div>
+        <div class="background-elements">
+            <div class="cross-button background-buttons">
+                <div class="pivot">
+                    <div class="middle-cube cross-cubes">
+                        <div class="face x-pos"></div>
+                        <div class="face x-neg"></div>
+                        <div class="face y-pos"></div>
+                        <div class="face y-neg"></div>
+                        <div class="face z-pos"></div>
+                        <div class="face z-neg"></div>
+                    </div>
+                    <div class="left-cube cross-cubes">
+                        <div class="face x-pos"></div>
+                        <div class="face x-neg"></div>
+                        <div class="face y-pos"></div>
+                        <div class="face y-neg"></div>
+                        <div class="face z-pos"></div>
+                        <div class="face z-neg"></div>
+                    </div>
+                    <div class="right-cube cross-cubes">
+                        <div class="face x-pos"></div>
+                        <div class="face x-neg"></div>
+                        <div class="face y-pos"></div>
+                        <div class="face y-neg"></div>
+                        <div class="face z-pos"></div>
+                        <div class="face z-neg"></div>
+                    </div>
+                    <div class="top-cube cross-cubes">
+                        <div class="face x-pos"></div>
+                        <div class="face x-neg"></div>
+                        <div class="face y-pos"></div>
+                        <div class="face y-neg"></div>
+                        <div class="face z-pos"></div>
+                        <div class="face z-neg"></div>
+                    </div>
+                    <div class="bottom-cube cross-cubes">
+                        <div class="face x-pos"></div>
+                        <div class="face x-neg"></div>
+                        <div class="face y-pos"></div>
+                        <div class="face y-neg"></div>
+                        <div class="face z-pos"></div>
+                        <div class="face z-neg"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="a-button background-buttons">
+                <div class="pivot">
+                    <div class="zpos-face">A</div>
+                    <div class="zneg-face">
+                    </div>
+                </div>
+            </div>
+            <div class="b-button background-buttons">
+                <div class="pivot">
+                    <div class="zpos-face">B</div>
+                    <div class="zneg-face">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="play-button button">Play</div>
+            <div class="replay-button button">Replay</div>
+            <div class="options-button"></div>
+            <div class="color-theme">
+                <div class="black-and-white"></div>
+                <div class="yellow"></div>
+                <div class="blue"></div>
+                <div class="normal"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
